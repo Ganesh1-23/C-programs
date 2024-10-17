@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+void main() 
+{
+    char a[20] = "MALAYALAM";
+    int i = 0, j = strlen(a) - 1;
+
+    for (int i = 0; j = i; i < j; i++, j--)
+    {
+        if (a[i] != a[j])
+        {
+            printf("It is not palindrome");
+            return;
+        }
+    }
+    printf("It is palindrome");
+}
